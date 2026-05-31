@@ -12,5 +12,5 @@
 git clone https://dagshub.com/FiveStarHotel/MLP_sensors_classifier.git
 cd MLP_sensors_classifier
 uv sync
-uv run backend.app:app
+uv run uvicorn backend.app:app
 ```
